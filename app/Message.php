@@ -24,6 +24,7 @@ class Message extends Model
     {
         return $this->hasOne('App\User','id','receiverId');
     }
+    // test
     
     
     
